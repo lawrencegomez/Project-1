@@ -1,0 +1,107 @@
+@font-face {
+  font-family: atari;
+  src: url('PressStart2P.ttf');
+}
+
+.no-display {
+  display: none;
+}
+
+*::-moz-selection { background: transparent; }
+*::selection { background: transparent; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  background: url('./bg.jpg')
+}
+
+img {
+  position: absolute;
+  top: 35px;
+  left: 577px;
+}
+
+
+/*.enemy-missile {
+  position: absolute;
+}
+
+.player-missile {
+  position: absolute;
+}*/
+svg {
+  color: red;
+}
+
+#scorebar {
+  background-color: black;
+  height: 100px;
+  width: 1000px;
+  left: 390px;
+  top: 250px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  border-left: 15px solid red;
+  border-right: 15px solid red;
+  border-top: 15px solid red;
+}
+
+.scoreboard {
+  display: inline-block;
+  padding: 0;
+  margin: 8px;
+  width: 300px;
+  height: 100px;
+  padding-top: 25px;
+  color: white;
+  font-family: atari;
+}
+
+/*#player1Scoreboard {
+  background-color: green;
+}
+
+#player2Scoreboard {
+  background-color: green;
+}*/
+
+
+#game-board {
+  height: 500px;
+  width: 1000px;
+  background-color: black;
+  margin-left: 390px;
+  margin-top: 350px;
+  display: block;
+  border-left: 15px solid red;
+  border-right: 15px solid red;
+  border-bottom: 15px solid red;
+}
+
+button {
+  position: absolute;
+  top: 500px;
+  left: 95px;
+  font-size: 35px;
+  font-family: atari;
+
+}
+
+#scoreboard {
+  font-size: 50px;
+  left: 1200px;
+  top: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  color: black;
+  position: absolute;
+}
+
+.underline {
+  text-decoration: underline;
+  color: red;
+}
