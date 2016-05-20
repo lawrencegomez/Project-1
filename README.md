@@ -13,7 +13,7 @@ A game similar to Atari's Missile Command, but much simpler and unforutnately, n
 1. Missiles fall from the sky at a random rate
 2. Collision detection
 
-# Areas for improvement:
+# What doesn't:
 1. Collision detection does not work flawlessly
 2. Missiles falling from the sky should fall at random angles, not just straight down
 3. Add a counter for each players score
